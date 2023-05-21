@@ -1,6 +1,6 @@
 # Akarenga-FastAPI
 
-[資料](https://www.figma.com/file/KBqN97ELYJo9grqLlbD4Tv/anakrenga-fastapi?node-id=0%3A1&t=w55e7W5mALKGajna-1)
+[資料](https://engineercafe.connpass.com/event/282883/)
 
 ## install
 
