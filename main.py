@@ -28,7 +28,7 @@ async def create_task(task: Task):
     return JSONResponse(content=response, status_code=201)  # 201=created
 
 
-@app.get("/tasks/", response_model=Task)
+@app.get("/tasks/", response_model=list[Task])
 async def read_tasks(skip: int = 0, limit: int = 100):
     # skip：データを飛ばし飛ばしで取得する, limit：id 1~100まで取得
     query = "SELECT * FROM tasks ORDER BY id DESC LIMIT :limit OFFSET :skip"
